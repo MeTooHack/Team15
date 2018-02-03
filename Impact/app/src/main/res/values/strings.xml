@@ -11,9 +11,19 @@
     <string name="Impact">IMPACT</string>
     <string name="situation1">Jag blev tagen på rumpan.</string>
     <string name="situation2">Hen drog ett dåligt skämt.</string>
+<<<<<<< HEAD
     <string name="tafsInfo">Tar någon på din kropp är det inte okej</string>
     <string name="suggenstion">Säg att nu har du handen på till exempel mitt lår</string>
     <string name="suggenstionTitle">Förslag</string>
 
+=======
+    <string name="MakeImpact">MAKE IMPACT</string>
+    <string name="Fact">INFORMATION</string>
+    <string name="Practice">PRACTICE</string>
+    <string name="Didyouknow">Visste du att...?</string>
+    <string name="Didyouknow1">4 av 5 kvinnor har utsatts för sexuella trakasserier. \n Det vanligaste övergreppet är tafsande.</string>
+    <string name="Help">Har du blivit utsatt kan du få stöd här:</string>
+    <string name="Help1">bra telefonnummer 012 34 56 78</string>
+>>>>>>> f21be71f72743d2e2b391c4f089d90bdaa04464b
 
 </resources>
