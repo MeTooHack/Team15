@@ -2,6 +2,7 @@ package com.example.impact;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.FragmentTransaction;
 import android.view.MenuItem;
 import android.widget.Toast;
 import android.content.Intent;
@@ -34,7 +35,14 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.action_makeimpact:
 
-                        Toast.makeText(MainActivity.this, "Action Impact clicked", Toast.LENGTH_SHORT).show();
+
+
+                        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+                        ft.replace(R.id.action_makeimpact, new Fragment1());
+                        ft.commit();
+
+
+                       // Toast.makeText(MainActivity.this, "Action Impact clicked", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.action_practice:
                         Toast.makeText(MainActivity.this, "Action Practice clicked", Toast.LENGTH_SHORT).show();
