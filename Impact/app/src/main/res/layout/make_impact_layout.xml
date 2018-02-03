@@ -19,10 +19,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
-            <!-- android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"-->
+
 
             <TextView
                 android:id="@+id/textView2"
@@ -57,82 +54,7 @@
                         android:onClick="onClick"
                         android:text="@string/tafs" />
 
-                    <TextView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@color/yellow"
-                        android:gravity="center"
 
-
-                        android:text="@string/tafs" />
-
-                    <TextView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@color/yellow"
-                        android:gravity="center"
-
-
-                        android:text="@string/tafs" />
-
-                    <TextView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@color/yellow"
-                        android:gravity="center"
-
-
-                        android:text="@string/tafs" />
-
-                    <TextView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@color/yellow"
-                        android:gravity="center"
-
-
-                        android:text="@string/tafs" />
-
-                    <TextView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@color/yellow"
-                        android:gravity="center"
-
-
-                        android:text="@string/tafs" />
-
-                    <TextView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@color/yellow"
-                        android:gravity="center"
-
-
-                        android:text="@string/tafs" />
-
-                    <TextView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@color/yellow"
-                        android:gravity="center"
-
-
-                        android:text="@string/tafs" />
                 </LinearLayout>
 
             </HorizontalScrollView>
@@ -145,7 +67,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:text="@string/work_cathegory"
+                android:text="@string/school_cathegory"
 
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textStyle="bold" />
@@ -160,32 +82,30 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:id="@+id/tafs2"
+
                         android:layout_width="200px"
                         android:layout_height="200px"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:background="@color/yellow"
                         android:gravity="center"
-
-                        android:text="@string/tafs" />
-
-                    <TextView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@color/yellow"
-                        android:gravity="center"
-                        android:text="@string/tafs" />
+                        android:onClick="onClick"
+                        android:text="@string/krank" />
 
                     <TextView
+                        android:id="@+id/krank"
+
                         android:layout_width="200px"
                         android:layout_height="200px"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:background="@color/yellow"
                         android:gravity="center"
-                        android:text="@string/tafs" />
+                        android:text="@string/tafs"
+                        android:onClick="onClick"/>
+
+
 
 
                 </LinearLayout>

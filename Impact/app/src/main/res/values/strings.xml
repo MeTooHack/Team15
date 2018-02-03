@@ -3,9 +3,17 @@
     <string name="situation_headline">Ex. situation</string>
     <string name="situation_situation">Exempel situation beskrivning</string>
     <string name="work_cathegory">Work</string>
+    <string name="school_cathegory">School</string>
+
     <string name="tafs">Tafsande</string>
+    <string name="krank">Kränkande</string>
+
     <string name="Impact">IMPACT</string>
     <string name="situation1">Jag blev tagen på rumpan.</string>
     <string name="situation2">Hen drog ett dåligt skämt.</string>
+    <string name="tafsInfo">Tar någon på din kropp är det inte okej</string>
+    <string name="suggenstion">Säg att nu har du handen på till exempel mitt lår</string>
+    <string name="suggenstionTitle">Förslag</string>
+
 
 </resources>

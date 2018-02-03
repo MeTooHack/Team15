@@ -16,8 +16,6 @@ import android.widget.TextView;
 public class MakeImpactView extends android.support.v4.app.Fragment implements View.OnClickListener{
 
 
-    private TextView tafs1;
-    private Intent intent;
 
     public static MakeImpactView newInstance() {
         MakeImpactView fragment = new MakeImpactView();
@@ -32,8 +30,14 @@ public class MakeImpactView extends android.support.v4.app.Fragment implements V
         View v = inflater.inflate(R.layout.make_impact_layout, container, false);
 
 
+
+
         TextView b = (TextView) v.findViewById(R.id.tafs1);
         b.setOnClickListener(this);
+        TextView a = (TextView) v.findViewById(R.id.tafs2);
+        a.setOnClickListener(this);
+        TextView c = (TextView) v.findViewById(R.id.krank);
+        c.setOnClickListener(this);
         return v;
     }
     @Override
@@ -45,8 +49,17 @@ public class MakeImpactView extends android.support.v4.app.Fragment implements V
     @Override
     public void onClick(View view) {
 
-        Intent intent = new Intent(getActivity(), SituationActivity.class);
-        startActivity(intent);
+        if(view.getId() == R.id.tafs1){
+            Intent intent = new Intent(getActivity(), SituationActivity.class);
+            startActivity(intent);
+        } else if(view.getId() == R.id.tafs2){
+            Intent intent = new Intent(getActivity(), TaftActicivity.class);
+            startActivity(intent);
+        } else {
+            Intent intent = new Intent(getActivity(), KrankActivity.class);
+            startActivity(intent);
+        }
+
 
     }
 }
