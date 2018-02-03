@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.action_makeimpact:
 
 
-
+/*
                         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
                         ft.replace(R.id.action_makeimpact, new Fragment1());
-                        ft.commit();
+                        ft.commit();*/
 
 
                        // Toast.makeText(MainActivity.this, "Action Impact clicked", Toast.LENGTH_SHORT).show();
