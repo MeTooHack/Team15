@@ -38,6 +38,8 @@ public class MakeImpactView extends android.support.v4.app.Fragment implements V
         a.setOnClickListener(this);
         TextView c = (TextView) v.findViewById(R.id.krank);
         c.setOnClickListener(this);
+        TextView d = (TextView) v.findViewById(R.id.tafs3);
+        d.setOnClickListener(this);
         return v;
     }
     @Override
@@ -53,6 +55,11 @@ public class MakeImpactView extends android.support.v4.app.Fragment implements V
             Intent intent = new Intent(getActivity(), SituationActivity.class);
             startActivity(intent);
         } else if(view.getId() == R.id.tafs2){
+            Intent intent = new Intent(getActivity(), TaftActicivity.class);
+            startActivity(intent);
+
+        }
+        else if(view.getId() == R.id.tafs3){
             Intent intent = new Intent(getActivity(), TaftActicivity.class);
             startActivity(intent);
         } else {
