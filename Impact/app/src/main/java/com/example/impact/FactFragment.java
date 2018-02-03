@@ -16,6 +16,10 @@ public class FactFragment extends Fragment  {
         FactFragment fragment = new FactFragment();
         return fragment;
     }
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
 
     @Override

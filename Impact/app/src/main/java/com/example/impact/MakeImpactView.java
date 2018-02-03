@@ -36,6 +36,10 @@ public class MakeImpactView extends android.support.v4.app.Fragment implements V
         b.setOnClickListener(this);
         return v;
     }
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
 
     @Override
