@@ -7,29 +7,7 @@
     android:background="@color/white"
     tools:context="com.example.impact.MainActivity">
 
-    <!-- Header aligned to top -->
-    <RelativeLayout
-        android:id="@+id/header"
-        android:layout_width="384dp"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:background="@color/colorPrimary"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:text="@string/Impact"
-            android:textColor="@color/white"
-            android:textSize="40sp" />
-
-
-    </RelativeLayout>
 
     <FrameLayout
         android:id="@+id/frame_layout"

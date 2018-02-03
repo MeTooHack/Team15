@@ -7,5 +7,8 @@
     <string name="Impact">IMPACT</string>
     <string name="situation1">Jag blev tagen på rumpan.</string>
     <string name="situation2">Hen drog ett dåligt skämt.</string>
+    <string name="MakeImpact">MAKE IMPACT</string>
+    <string name="Fact">INFORMATION</string>
+    <string name="Practice">PRACTICE</string>
 
 </resources>
