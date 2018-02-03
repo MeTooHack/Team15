@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (item.getItemId()){
                     case R.id.action_home:
-                        Toast.makeText(MainActivity.this, "Action Home clicked", Toast.LENGTH_SHORT).show();
+                        selectedFragment = StartFragement.newInstance();
                         break;
                     case R.id.action_facts:
-                        Toast.makeText(MainActivity.this, "Action Facts clicked", Toast.LENGTH_SHORT).show();
+                        selectedFragment = FactFragment.newInstance();
                         break;
                     case R.id.action_makeimpact:
 
@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
                         break;
                     case R.id.action_practice:
-                        Toast.makeText(MainActivity.this, "Action Practice clicked", Toast.LENGTH_SHORT).show();
+                        selectedFragment = PracticeFragment.newInstance();
+
                         break;
                 }
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
