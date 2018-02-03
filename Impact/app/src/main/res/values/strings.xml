@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Impact</string>
-    <string name="situation_headline">Rubrik</string>
+    <string name="situation_headline">Ex. situation</string>
+    <string name="situation_situation">Exempel situation beskrivning</string>
     <string name="work_cathegory">Work</string>
     <string name="tafs">Tafsande</string>
 
