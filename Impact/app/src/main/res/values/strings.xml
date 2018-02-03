@@ -9,15 +9,31 @@
     <string name="krank">Kränkande</string>
 
     <string name="Impact">IMPACT</string>
-    <string name="situation1">Jag blev tagen på rumpan.</string>
-    <string name="situation2">Hen drog ett dåligt skämt.</string>
-
     <string name="MakeImpact">MAKE IMPACT</string>
     <string name="Fact">INFORMATION</string>
     <string name="Practice">PRACTICE</string>
     <string name="Didyouknow">Visste du att...?</string>
     <string name="Didyouknow1">4 av 5 kvinnor har utsatts för sexuella trakasserier. \n Det vanligaste övergreppet är tafsande.</string>
     <string name="Help">Har du blivit utsatt kan du få stöd här:</string>
-    <string name="Help1">bra telefonnummer 012 34 56 78</string>
+    <string name="Help1">Awesome telefonnummer: 012 34 56 78</string>
+
+    <string name="Work">På jobbet</string>
+    <string name="InPublic">Publikt</string>
+    <string name="HomeFriends">Hemma / Vänner</string>
+
+    <!-- Example 1 -->
+    <string name="example1">Kollega eller chef försöker skämta vid fikabordet \n - Höhö, ni vet hur kvinnor är!</string>
+    <string name="action1">Ifrågasätt, gå inte med på påståendet genom att säga "Hur menar du? Hur exakt är det vi är?"</string>
+
+    <!-- Example 2 -->
+    <string name="example2">En eller flera personer försöker prata och ragga på en ensam person som tydligt signalerar att hen inte vill. Ingen på vagnen reagerar och du hör personen säga "allt du duger till är att suga kuk"!</string>
+    <string name="action2a">Avledning och avbrott genom att låtsas känna igen den utsatta "Men hej Lisa, det var inte igår, vem är det här du står och pratar med? När var det vi sågs senast..."</string>
+    <string name="action2b">Meddela chauffören att sexuella trakasserier pågår i vagnen.</string>
+    <string name="action2c">Hitta en allierad och hjälps åt att säga ifrån.</string>
+
+    <!-- Example 3 -->
+    <string name="example3">En hemmafest där det blir trångt i baren och situationen \n utnyttjas genom att en eller flera trycker sig mot en person \n och gör verbala antydningar. </string>
+    <string name="action3"> - Jag är inte bekväm med den här trängseln, kan du backa undan?</string>
+
 
 </resources>
