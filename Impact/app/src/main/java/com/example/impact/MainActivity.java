@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                         ft.commit();
 */
 
+
                         Toast.makeText(MainActivity.this, "Action Impact clicked", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.action_practice:
