@@ -24,7 +24,6 @@
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-
             android:background="@color/colorPrimary"
             android:gravity="center"
             android:text="@string/Impact"
@@ -37,7 +36,7 @@
             android:layout_height="100dp"
             android:layout_marginEnd="0dp"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="9dp"
             android:background="@color/pink"
             android:gravity="center"
             android:text="@string/situation2"
@@ -53,7 +52,7 @@
             android:layout_height="100dp"
             android:layout_marginEnd="0dp"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="9dp"
             android:background="@color/pink"
             android:gravity="center"
             android:text="@string/situation1"
@@ -62,5 +61,69 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/header" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:text="@string/Didyouknow"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:background="@color/yellow"
+            android:gravity="center_horizontal"
+            android:text="@string/Didyouknow1"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="@string/Help"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:background="@color/blue"
+            android:gravity="center_horizontal"
+            android:text="@string/Help1"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header" />
+
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

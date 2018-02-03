@@ -10,5 +10,9 @@
     <string name="MakeImpact">MAKE IMPACT</string>
     <string name="Fact">INFORMATION</string>
     <string name="Practice">PRACTICE</string>
+    <string name="Didyouknow">Visste du att...?</string>
+    <string name="Didyouknow1">4 av 5 kvinnor har utsatts för sexuella trakasserier. \n Det vanligaste övergreppet är tafsande.</string>
+    <string name="Help">Har du blivit utsatt kan du få stöd här:</string>
+    <string name="Help1">bra telefonnummer 012 34 56 78</string>
 
 </resources>
