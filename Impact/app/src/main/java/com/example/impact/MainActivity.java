@@ -20,9 +20,10 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
 
 
+    //Spideys shit
     private Button mFirebaseBtn;
     private DatabaseReference mDatabase;
-
+    private FirebaseAdapter firebaseAdapter;
     private EditText mNameField;
 
 
@@ -30,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //yes dis i Spideys shit
+        firebaseAdapter = new FirebaseAdapter();
 
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
@@ -74,9 +78,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        //Spideys shit
         mFirebaseBtn = (Button) findViewById(R.id.firebase_btn);
         mDatabase = FirebaseDatabase.getInstance().getReference();
-
         mNameField = (EditText) findViewById(R.id.name_field);
 
         mFirebaseBtn.setOnClickListener(new View.OnClickListener() {
@@ -88,17 +92,9 @@ public class MainActivity extends AppCompatActivity {
                 // 2 - Assign some value to that child object
 
                 String name = mNameField.getText().toString().trim();
-
                 mDatabase.child("Name").setValue(name);
-
 
             }
         });
-
-
-
     }
-
-
-
 }
