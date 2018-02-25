@@ -81,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
         //Spideys shit
         mFirebaseBtn = (Button) findViewById(R.id.firebase_btn);
         mDatabase = FirebaseDatabase.getInstance().getReference();
-        mNameField = (EditText) findViewById(R.id.name_field);
 
         mFirebaseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,8 +90,6 @@ public class MainActivity extends AppCompatActivity {
                 // 1 - Create a child in root object
                 // 2 - Assign some value to that child object
 
-                String name = mNameField.getText().toString().trim();
-                mDatabase.child("Name").setValue(name);
 
             }
         });

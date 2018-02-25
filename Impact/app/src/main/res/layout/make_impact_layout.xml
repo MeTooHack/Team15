@@ -38,19 +38,21 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/me_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Me"
-                    android:background="@null"/>
+                    android:onClick="meClicked"
+                    android:background="@color/blue"/>
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/other_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Other"
+                    android:onClick="otherClicked"
                     android:background="@null"/>
             </LinearLayout>
 
