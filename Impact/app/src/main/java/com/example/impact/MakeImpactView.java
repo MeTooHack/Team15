@@ -2,7 +2,6 @@ package com.example.impact;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -54,15 +53,15 @@ public class MakeImpactView extends android.support.v4.app.Fragment implements V
             Intent intent = new Intent(getActivity(), SituationActivity.class);
             startActivity(intent);
         } else if(view.getId() == R.id.tafs2){
-            Intent intent = new Intent(getActivity(), TaftActicivity.class);
+            Intent intent = new Intent(getActivity(), SituationActivity.class);
             startActivity(intent);
 
         }
         else if(view.getId() == R.id.tafs3){
-            Intent intent = new Intent(getActivity(), TaftActicivity.class);
+            Intent intent = new Intent(getActivity(), SituationActivity.class);
             startActivity(intent);
         } else {
-            Intent intent = new Intent(getActivity(), KrankActivity.class);
+            Intent intent = new Intent(getActivity(), SituationActivity.class);
             startActivity(intent);
         }
 

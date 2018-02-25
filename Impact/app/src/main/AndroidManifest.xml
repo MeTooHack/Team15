@@ -17,8 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SituationActivity" />
-        <activity android:name=".TaftActicivity" />
-        <activity android:name=".KrankActivity"></activity>
     </application>
 
 </manifest>
